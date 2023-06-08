@@ -1,5 +1,4 @@
 import os
-
 nome = input("Digite seu primeiro nome: ")
 while nome.isalpha() == False:
   print()
