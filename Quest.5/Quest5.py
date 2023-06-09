@@ -2,6 +2,7 @@ import os
 import platform
 
 system = platform.system()
+
 nome = input("Digite seu primeiro nome: ")
 while nome.isalpha() == False:
   print()
