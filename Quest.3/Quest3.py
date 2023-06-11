@@ -1,3 +1,4 @@
+print("Contador de letras!")
 palavra = input("Escolha uma palavra: ")
 palavra = palavra.upper()
 dicio = {}
