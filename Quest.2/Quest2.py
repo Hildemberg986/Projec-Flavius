@@ -1,5 +1,6 @@
 print("Codificando palavras")
 palavra = input("O que você quer codificar? ")
+palavra = palavra.lower()
 letrasCodificadas = []
 for letra in palavra:
     if letra == ' ':      # Modificação feita para manter o espaço intacto ao codificar frases, antes estava sendo transformado em '!'
@@ -7,8 +8,8 @@ for letra in palavra:
     else:
         valorPalavra = ord(letra)
         valorSucessor = valorPalavra + 1
-        if letra == 'Z':
-            letraCodificada = 'A'
+        if letra == 'z':
+            letraCodificada = 'a'
         else:
             letraCodificada = chr(valorSucessor)
     letrasCodificadas.append(letraCodificada)
