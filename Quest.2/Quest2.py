@@ -58,5 +58,5 @@ for letra in palavra:
         else:
             letraCodificada = chr(valorSucessor)
     letrasCodificadas.append(letraCodificada)
-print("Codificação feita")
+print("Codificação feita") 
 print("Resultado: ", "".join(letrasCodificadas))
